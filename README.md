@@ -39,7 +39,7 @@ You add the music and the Vehicles in the Config file. (ignore the german music 
 
 If youre not german you also have to translate the [de.lua] dont use the en.lua
 
-You need to add the code in /optionalneeds and /basicneeds in esx_basicneeds and esx_optionalneeds.
+You need to add the lines in [effects] in esx_basicneeds and esx_optionalneeds.
 
 Have fun with it
 
