@@ -1,0 +1,160 @@
+Locales['de'] = {
+    -- Cloakroom
+    ['cloakroom']                = 'Umkleideraum',
+    ['citizen_wear']             = 'Civile Kleidung',
+    ['barman_outfit']            = 'Barkeeper',
+    ['dancer_outfit_1']          = 'Drecksarbeit',
+	['dancer_outfit_2']          = 'Chauffeur',
+	['dancer_outfit_3']          = 'Security',
+    ['no_outfit']                = 'Es gibt keine Uniform für dich ...',
+    ['open_cloackroom']          = 'Drücke ~INPUT_CONTEXT~ um dich Umzuziehen',
+  
+    -- Vault  
+    ['get_weapon']               = 'Waffe holen',
+    ['put_weapon']               = 'Waffe weglegen',
+    ['get_weapon_menu']          = 'Safe - Waffe nehmen',
+    ['put_weapon_menu']          = 'Safe - Waffe weglegen',
+    ['get_object']               = 'Objekt nehmen',
+    ['put_object']               = 'Objekt weglegen',
+    ['vault']                    = 'Safe',
+    ['open_vault']               = 'Drücke ~INPUT_CONTEXT~ um den Safe zu öffnen',
+  
+    -- Fridge  
+    ['get_object']               = 'Objekt nehmen',
+    ['put_object']               = 'Objekt weglegen',
+    ['fridge']                   = 'Kühlschrank',
+    ['open_fridge']              = 'drücke ~INPUT_CONTEXT~ um den Kühlschrank zu öffnen',
+    ['nightclub_fridge_stock']   = 'Kühlschrank vom Club!',
+    ['fridge_inventory'] 	   	= 'dein Inventar',
+	['player_cannot_hold'] 	   	= 'nicht genug Platz',
+  
+    -- Shops  
+    ['shop']                     = 'Strip/Nachtclub Shop',
+    ['shop_menu']                = 'Drücke ~INPUT_CONTEXT~ um den Shop zu öffnen.',
+    ['bought']                   = 'Du kaufst ~b~ 1x',
+    ['not_enough_money']         = 'Du hast nicht genug Geld.',
+    ['max_item']                 = 'Du hast schon genug bei dir.',
+  
+    -- Vehicles
+  ['vehicle_menu'] = 'Autos',
+  ['vehicle_blocked'] = 'Kein freier Platz',
+  ['garage_prompt'] = 'Drücke ~INPUT_CONTEXT~ um die ~y~Vehicle Actions~s~ zu erreichen.',
+  ['garage_title'] = 'Fahzeug Aktionen',
+  ['garage_stored'] = 'Geparkt',
+  ['garage_notstored'] = 'Nicht geparkt',
+  ['garage_storing'] = 'we\'re attempting to remove the vehicle, make sure no players are around it.',
+  ['garage_has_stored'] = 'Das Fahrzeug wurde eingeparkt',
+  ['garage_has_notstored'] = 'Keine Fahrzeuge in der Nähe',
+  ['garage_notavailable'] = 'Dein Fahrzeug befindet sich nicht in der Garage',
+  ['garage_blocked'] = 'Kein freier Platz',
+  ['garage_empty'] = 'Keine Fahrzeuge in der Garage',
+  ['garage_released'] = 'Ihr Fahrzeug wurde ausgeparkt',
+  ['garage_store_nearby'] = 'there is no nearby vehicles.',
+  ['garage_storeditem'] = 'Garage öffnen',
+  ['garage_storeitem'] = 'Einparken',
+  ['garage_buyitem'] = 'Fahrzeugshop',
+  ['garage_notauthorized'] = 'you\'re not authorized to buy this kind of vehicles.',
+  ['helicopter_prompt'] = 'press ~INPUT_CONTEXT~ to access the ~y~Helicopter Actions~s~.',
+  ['shop_item'] = '$%s',
+  ['vehicleshop_title'] = 'Fahrzeugshop',
+  ['vehicleshop_confirm'] = 'Wollen sie dieses Fahrzeug kaufen?',
+  ['vehicleshop_bought'] = 'Sie kauften ~y~%s~s~ für ~r~$%s~s~',
+  ['vehicleshop_money'] = 'Sie können sich das Auto nicht leisten!',
+  ['vehicleshop_awaiting_model'] = 'the vehicle is currently ~g~DOWNLOADING & LOADING~s~ please wait',
+  ['confirm_no'] = 'Nein',
+  ['confirm_yes'] = 'Ja',
+  
+    -- Boss Menu  
+    ['take_company_money']       = 'Firmengeld nehmen',
+    ['deposit_money']            = 'Firmengeld einzahlen',
+    ['amount_of_withdrawal']     = 'Menge zum abheben',
+    ['invalid_amount']           = 'ungültige Betrag',
+    ['amount_of_deposit']        = 'Menge zum einzahlen',
+    ['open_bossmenu']            = 'drücke ~INPUT_CONTEXT~ um das Menü zu öffnen',
+    ['invalid_quantity']         = 'Ungültige Menge',
+    ['you_removed']              = 'Du hast entfernt x',
+    ['you_added']                = 'Du hast hinzugefügt x',
+    ['quantity']                 = 'Menge',
+    ['inventory']                = 'Inventar',
+    ['nightclub_stock']          = 'Lager vom Nachtclub',
+	['not_enough_in_society']	 = 'Kein Objekt vorhanden',
+  
+    -- Billing Menu  
+    ['billing']                  = 'Rechnung',
+    ['no_players_nearby']        = 'Keine Spieler in der Nähe',
+    ['billing_amount']           = 'Rechnungsbetrag',
+    ['amount_invalid']           = 'üngültiger Betrag',
+  
+    -- Crafting Menu  
+    ['crafting']                 = 'Herstellung',
+    ['martini']                  = 'White Martini',
+    ['icetea']                   = 'Ice Tea',
+    ['drpepper']                 = 'Dr. Pepper',
+    ['saucisson']                = 'Sausage',
+    ['grapperaisin']             = 'Bunch of grapes',
+    ['energy']                   = 'Energy Drink',
+    ['jager']                    = 'Jägermeister',
+    ['limonade']                 = 'Lemonade',
+    ['vodka']                    = 'Vodka',
+    ['ice']                      = 'Ice',
+    ['soda']                     = 'Soda',
+    ['whisky']                   = 'Whisky',
+    ['rhum']                     = 'Rhum',
+    ['tequila']                  = 'Tequila',
+    ['menthe']                   = 'Mint',
+    ['jusfruit']                 = 'Fruchtsaft',
+    ['jagerbomb']                = 'Jägerbomb',
+    ['bolcacahuetes']            = 'Peanuts',
+    ['bolnoixcajou']             = 'Cashew nuts',
+    ['bolpistache']              = 'Pistachios',
+    ['bolchips']                 = 'Crisps',
+    ['jagerbomb']                = 'Jägerbomb',
+    ['golem']                    = 'Golem',
+    ['whiskycoca']               = 'Whisky-coke',
+    ['vodkaenergy']              = 'Vodka-energy',
+    ['vodkafruit']               = 'Vodka-fruit juice',
+    ['rhumfruit']                = 'Rum-fruit juice',
+    ['teqpaf']                   = 'Teq\'paf',
+    ['rhumcoca']                 = 'Rhum-coke',
+    ['mojito']                   = 'Mojito',
+    ['mixapero']                 = 'Aperitif Mix',
+    ['metreshooter']             = 'YourClub Special',
+    ['jagercerbere']             = 'Jäger Cerberus',
+    ['assembling_cocktail']      = 'Mix aus verschiedenen Zutaten im Gange!',
+    ['craft_miss']               = 'Unglücklicher Misserfolg der Mischung ...',
+    ['not_enough']               = 'Nicht genug ~r~',
+    ['craft']                    = 'Vollständiges Mischen von ~g~',
+	['ticketwob']				 =	'YourClub Ticket',
+  
+    -- Misc  
+    ['map_blip']                 = 'YourClub',
+    ['nightclub']                = 'YourClub',
+  
+    -- Phone  
+    ['nightclub_phone']          = 'Nachtclub',
+    ['nightclub_customer']       = 'Kunde',
+  
+    -- Teleporters
+    ['e_to_enter_1']             = 'Drücke ~INPUT_PICKUP~ um hinter die Bar zu gehen',
+    ['e_to_exit_1']              = 'Drücke ~INPUT_PICKUP~ um vor die Bar zu gehen',
+    ['e_to_enter_2']             = 'Drücke ~INPUT_PICKUP~ um in die Garage zu gehen.',
+    ['e_to_exit_2']              = 'Drücke ~INPUT_PICKUP~ um in den Nachtclub zu gehen.',
+	
+	---
+	['no_employee']             = 'Nur für ~p~Angestellte~s~!',
+    ['e_enter']                 = 'Drücke ~INPUT_PICKUP~ zum betreten',
+	['e_leave']                 = 'Drücke ~INPUT_PICKUP~ zum verlassen',
+	['nightclub_enter']         = 'Drücke ~INPUT_PICKUP~ zum betreten | Eintritt: ~y~',
+    ['have_fun']                = '~p~VIEL SPAß',
+    ['have_fun_vip']            = '~p~VIEL SPAß~s~ | ~b~V.I.P ',
+
+    --dj
+    ['play_music']                = 'Musik weiterspielen',
+    ['pause_music']                = 'Musik Pausieren',
+    ['stop_music']                = 'Musik Stoppen',
+    ['playlist']                = 'Playlist',
+
+  }
+  
+  
+  

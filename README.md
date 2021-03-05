@@ -1,35 +1,117 @@
-# esx_nightclub
-FiveM esx_nightclub reworked | DJ menu | Own vehicle | Ticket System
+**FXserver esx_nightclub**
 
-Reworked esx_nightclub job
-Whats new:
+FXServer ESX NIGHTCLUB JOB
 
-  - Charge money when enter
-  - If you have a Ticket it doesn't charge
-  - DJ pult
-  - Owned vehicle
-  - Vehicle teleporters to the garages
+**[REQUIREMENTS]**
 
-Dependencys:
+    Nightclub Interior (IPL Loader)
+        bob74_ipl   => (https://github.com/Bob74/bob74_ipl)
+        
+    Player management (billing and boss actions)
+        esx_society => (https://github.com/ESX-Org/esx_society)
+        esx_billing => (https://github.com/ESX-Org/esx_billing)
 
-  - es_extended           
-  - bob74_ipl             ->  https://github.com/Bob74/bob74_ipl
-  - ft_libs               ->  https://github.com/FivemTools/ft_libs
-  - esx_vehicleshop       
+    Items effects (hunger, thirst, drunk)
+        esx_status => (https://github.com/ESX-Org/esx_status)
+        esx_basicneeds => (https://github.com/ESX-Org/esx_basicneeds)
+        esx_optionalsneeds => (https://github.com/ESX-Org/esx_optionalneeds)
+        Items and effects should be added separately in their appropriate files
+        You need to add animations + items effects (basicneeds, optionnalneeds) for an optimal experience
 
-server.cfg:
+**[INSTALLATION]**
 
-- start bob74_ipl
-- start esx_nightclub
-- start ft_libs
+    CD in your resources/[esx] folder
 
-Big Thanks to:
+    Import esx_nightclub.sql in your database
 
-- SFL-Master   -> https://github.com/ESX-CN/esx_nightclub
-- Jager Bom    -> https://github.com/TanguyOrtegat/esx_jb_dj
-- ESXCrackhead ->https://github.com/esx-framework/esx_policejob
+    Add this in your server.cfg :
 
-Its based on the esx_nightclub script, I included esx_jb_dj and esx_policejob.
-Its my first time scripting, so its possible something wont work, just pm me on Discord, for me it works well. 
+start esx_nightclub
 
-Discord: Horst#6525
+    If you want player management you have to set Config.EnablePlayerManagement to true in config.lua 
+    You can config VaultManagement & Helicopters with true/false (don't forget to comment the area in the same file)
+
+    If you want real effects, add items and effects in esx_basicneeds and esx_optionalsneeds.
+
+
+Here are examples of what you could add:
+
+esx_basicneeds\server\main.lua:
+
+ESX.RegisterUsableItem('icetea', function(source)
+
+    local xPlayer = ESX.GetPlayerFromId(source)
+
+    xPlayer.removeInventoryItem('icetea', 1)
+
+    TriggerClientEvent('esx_status:add', source, 'thirst', 300000)
+    TriggerClientEvent('esx_basicneeds:onDrink', source)
+    TriggerClientEvent('esx:showNotification', source, _U('used_icetea'))
+
+end)
+
+ESX.RegisterUsableItem('mixapero', function(source)
+    
+        local xPlayer = ESX.GetPlayerFromId(source)
+    
+        xPlayer.removeInventoryItem('mixapero', 1)
+    
+        TriggerClientEvent('esx_status:add', source, 'hunger', 100000)
+        TriggerClientEvent('esx_status:remove', source, 'thirst', 50000)
+        TriggerClientEvent('esx_basicneeds:onEat', source)
+        TriggerClientEvent('esx:showNotification', source, _U('used_mixapero'))
+    
+end)
+
+
+esx_optionalneeds\server\main.lua:
+
+ESX.RegisterUsableItem('tequila', function(source)
+
+    local xPlayer = ESX.GetPlayerFromId(source)
+
+    xPlayer.removeInventoryItem('tequila', 1)
+
+    TriggerClientEvent('esx_status:add', source, 'drunk', 300000)
+    TriggerClientEvent('esx_optionalneeds:onDrink', source)
+    TriggerClientEvent('esx:showNotification', source, _U('used_tequila'))
+
+end)
+
+ESX.RegisterUsableItem('jagerbomb', function(source)
+
+    local xPlayer = ESX.GetPlayerFromId(source)
+
+    xPlayer.removeInventoryItem('jagerbomb', 1)
+
+    TriggerClientEvent('esx_status:add', source, 'drunk', 500000)
+    TriggerClientEvent('esx_status:remove', source, 'hunger', 10000)
+    TriggerClientEvent('esx_status:remove', source, 'thirst', 70000)
+    TriggerClientEvent('esx_optionalneeds:onDrink', source)
+    TriggerClientEvent('esx:showNotification', source, _U('used_jagerbomb'))
+
+end)
+
+**[FEATURES]**
+
+    Nightclub job
+        Fully customizable job
+        Boss, Bartender, Dancer grades
+        Cloakroom, Vault, Fridge, Vehicles, BossActions
+        Cloakroom : Dancer clothing with special movement effect, multiple clothes for men or women
+        Shops (harvesting) for components (alcoholic drinks, appetizers, non-alcoholic drinks)
+        Crafting menu for Bosses + Bartender (only with the right clothing) : coktails, mix appetizers
+        Spawning & delete Vehicles
+        working Teleporters
+        Players can miss the crafting part (~10% miss) and lose the components used
+        Billing menu
+        Girl are not supplied
+        working LCD Screens
+        Phone/gcphone Support
+     
+
+**[SHOPS (HARVESTING) AREAS]**
+
+    Alcoholic drinks => In the Nightclub
+    Non-alcoholic drinks => In the Nightclub
+    Appetizers => In the Nightclub

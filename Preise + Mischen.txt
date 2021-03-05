@@ -1,0 +1,99 @@
+
+[Jägerbomb] -- 5000€
+
+Energy 		- 2
+Jägermeister 	- 2
+
+------------------------------------------
+
+[Golem] -- 5000€
+
+limonade 	- 2
+vodka		- 2
+ice		- 1
+
+-----------------------------------------
+
+[whiskycola] -- 5000€
+
+soda 		- 2
+whisky 		- 2
+
+----------------------------------------
+
+[rhumcola] -- 5000€
+
+soda 		- 2
+rhum 		- 2
+
+---------------------------------------
+
+[vodkaenergy] -- 5000€
+
+energy 		- 2
+vodka		- 2
+ice 		- 1
+
+--------------------------------------
+
+[vodkafruit] -- 5000€
+
+Fruchtsaft 	- 2
+vodka		- 2
+ice 		- 1
+
+------------------------------------
+
+[Fruchtrhum] -- 5000€
+
+Fruchtsaft	- 2
+Rhum		- 2
+ice 		- 1
+
+-----------------------------------
+
+[Teq'Paf] -- 6000€
+
+limo		- 2
+tequila		- 2
+
+----------------------------------
+
+[mojito] -- 7000€
+
+thum		- 2
+limo 		- 2
+minze		- 2
+ice		- 1
+
+--------------------------------
+
+[apero mix] -- 4000€
+
+ceshew 		- 2
+erdnüsse	- 2
+pistazien	- 2
+chips		- 2
+
+-------------------------------
+
+[Shooter] -- 100.000€
+
+jägermeister	- 2
+vodka		- 2
+whisky		- 2
+tequila		- 2
+
+------------------------------
+
+[Jäger Cerberus] -- 5000€
+
+Jägerbombe	- 1
+Vodka		- 2
+Tequila		- 2
+
+
+
+Alles andere 3000€
+
+		
