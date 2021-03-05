@@ -28,9 +28,9 @@ FXServer ESX NIGHTCLUB JOB reworked
 
     Add this in your server.cfg :
 
-start bob74_ipl
-start esx_nightclub
-start ft_libs
+    start bob74_ipl
+    start esx_nightclub
+    start ft_libs
 
 **NOTES**
 
