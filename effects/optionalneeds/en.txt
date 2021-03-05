@@ -1,0 +1,22 @@
+	['used_vodka'] = 'Du hast ~y~1x ~g~Vodka~s~ getrunken!',
+	['used_jager'] = 'Du hast ~y~1x ~g~Jägermeister ~s~getrunken!',
+	['used_rhum'] = 'Du hast ~y~1x ~g~Rhum ~s~getrunken!',
+	['used_whisky'] = 'Du hast ~y~1x ~g~Whisky ~s~getrunken!',
+	['used_martini'] = 'Du hast ~y~1x ~g~Martini ~s~getrunken!',
+	['used_vodkaenergy'] = 'Du hast ~y~1x ~g~Vodkaenergy ~s~getrunken!',
+    	['used_mixapero'] = 'Du hast ~y~1x ~g~Aperitif Mix ~s~getrunken!',
+	-------------------------------------------------
+	['used_tequila'] = 'Du nahmst 1x ~y~Tequila~s~',
+	['used_jagerbomb'] = 'Du hast ~y~1x ~g~Jägerbomb~s~ getrunken!',
+	
+	['used_golem'] = 'Du hast ~y~1x ~g~Golem ~s~getrunken!',
+	['used_teqpaf'] = 'Du hast ~y~1x ~g~Teq-paf ~s~getrunken!',
+	['used_metreshooter'] = 'Du hast ~y~1x ~g~Shooter meter ~s~getrunken!',
+	['used_vodkafruit'] = 'Du hast ~y~1x ~g~Vodka Fruchtsaft ~s~getrunken!',
+    	['used_rhumfruit'] = 'Du hast ~y~1x ~g~Rhum Fruchtsaftx ~s~getrunken!',
+	
+	----------
+	['used_rhumcoca'] = 'Du hast ~y~1x ~g~Rhum-Cola ~s~getrunken!',
+	['used_mojito'] = 'Du hast ~y~1x ~g~Mojito ~s~getrunken!',
+	['used_whiskycoca'] = 'Du hast ~y~1x ~g~Whisky-Cola ~s~getrunken!',
+   	 ['used_jagercerbere'] = 'Du hast ~y~1x ~g~Jäger Cerberus ~s~getrunken!',
