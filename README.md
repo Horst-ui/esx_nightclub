@@ -34,8 +34,11 @@ start ft_libs
 
 **NOTES**
 
-Its based on the esx_nightclub, I took the esx_policejob and esx_jb_dj and included it. You schouldnt restart it while in game (the game could crash). When you do first stop ft_libs and then start the job.
-You add the music and the Vehicles in the Config file.
+Its based on the esx_nightclub, I took the esx_policejob and esx_jb_dj and included it. You schouldnt restart it while in game (the game could crash). If you do, first stop ft_libs and then start the job.
+You add the music and the Vehicles in the Config file. (ignore the german music in the Config).
+
+If youre not german you also have to translate the [de.lua] dont use the en.lua
+
 You need to add the code in /optionalneeds and /basicneeds in esx_basicneeds and esx_optionalneeds.
 
 Have fun with it
