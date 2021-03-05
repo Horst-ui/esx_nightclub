@@ -19,15 +19,15 @@ Dependencys:
 
 server.cfg:
 
-start bob74_ipl
-start esx_nightclub
-start ft_libs
+- start bob74_ipl
+- start esx_nightclub
+- start ft_libs
 
 Big Thanks to:
 
-SFL-Master   -> https://github.com/ESX-CN/esx_nightclub
-Jager Bom    -> https://github.com/TanguyOrtegat/esx_jb_dj
-ESXCrackhead ->https://github.com/esx-framework/esx_policejob
+- SFL-Master   -> https://github.com/ESX-CN/esx_nightclub
+- Jager Bom    -> https://github.com/TanguyOrtegat/esx_jb_dj
+- ESXCrackhead ->https://github.com/esx-framework/esx_policejob
 
 Its based on the esx_nightclub script, I included esx_jb_dj and esx_policejob.
 Its my first time scripting, so its possible something wont work, just pm me on Discord, for me it works well. 
