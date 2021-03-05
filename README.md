@@ -5,10 +5,10 @@ Reworked esx_nightclub job
 Whats new:
 
   - Charge money when enter
-  - If you have the a Ticket it doesn't charge
+  - If you have a Ticket it doesn't charge
   - DJ pult
   - Owned vehicle
-  - Vehicle teleporters to the garage
+  - Vehicle teleporters to the garages
 
 Dependencys:
 
