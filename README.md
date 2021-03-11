@@ -31,6 +31,14 @@ FXServer ESX NIGHTCLUB JOB reworked
     start bob74_ipl
     start esx_nightclub
     start ft_libs
+    
+**Whats new**
+
+    - You can buy Vehicles (esx_policejob)
+    - DJ pult (esx_jb_dj)
+    - Vehicle teleporters to the nightclub and the large Garage
+    - Ticket system: When someone who dont have the job enters the Nightclub, it charges money. If he has a ticket it doesnt charge money (can be bought in the  
+      officebar)
 
 **NOTES**
 
