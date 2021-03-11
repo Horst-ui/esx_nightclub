@@ -16,7 +16,6 @@ FXServer ESX NIGHTCLUB JOB reworked
         esx_status => (https://github.com/ESX-Org/esx_status)
         esx_basicneeds => (https://github.com/ESX-Org/esx_basicneeds)
         esx_optionalsneeds => (https://github.com/ESX-Org/esx_optionalneeds)
-        esx_jb_dj   => https://github.com/TanguyOrtegat/esx_jb_dj
         esx_vehicleshop => https://github.com/esx-framework/esx_vehicleshop
         ft_libs     => https://github.com/FivemTools/ft_libs
 
