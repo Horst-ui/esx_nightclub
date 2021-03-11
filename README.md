@@ -50,7 +50,7 @@ You need to add the lines in [effects] to esx_basicneeds and esx_optionalneeds.
 
 Have fun with it
 
-If something doesnt work:
+--------------------------
 
 Discord: Horst#6525
 
